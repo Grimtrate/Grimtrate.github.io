@@ -9,8 +9,8 @@ body{
 }
 
 .main-nav{
-	display: grid;
-	grid-template-columns: 25% 75%;
+	display: flex;
+	justify-content: flex-end;
 	list-style: none;
 	font-size: 0.8vw;
 	margin:0;
@@ -97,4 +97,7 @@ text-align: center;
 	background-color: darkorange;
 	transition: all 0.2s ease-in;
 }
-
+nav {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
