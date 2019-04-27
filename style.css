@@ -102,3 +102,8 @@ text-align: center;
 .NICOLAE{
 /*    css*/
 }
+
+.nav{
+    display:grid;
+    grid-template-columns:25% 75%;
+}
